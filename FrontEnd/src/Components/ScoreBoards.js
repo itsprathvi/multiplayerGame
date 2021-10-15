@@ -2,6 +2,8 @@ import React from 'react'
 import {HiHeart , HiOutlineHeart} from 'react-icons/hi'
 import styles from './CSS/Scoreboard.module.css';
 
+
+//////////////////////////////Score Board conditions/////////////////////////////////////////
 export default function ScoreBoards(props) {
     const getHearts = (count) =>{
         var temp = []
@@ -14,7 +16,7 @@ export default function ScoreBoards(props) {
         }
         return temp;
     }
-
+/////////////////////////////////////Templates//////////////////////////////////////////////
     return (
         <div>
             <div className={styles.scoreBoard1} >

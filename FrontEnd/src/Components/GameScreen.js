@@ -2,6 +2,8 @@ import React from 'react'
 import LeftSidePlayer from './LeftSidePlayer'
 import RightSidePlayer from './RightSidePlayer'
 
+///////////////////////////////////Game Screen Settings/////////////////////////////////////
+
 function GameScreen({playerPosition, player, opponent, setPlayer, setOpponent,socket, started, room, initGame}) {
     return (
         <>

@@ -9,7 +9,7 @@ export default function InfoPannel({ player, setPlayer, socket ,room, setRoom })
     const [createRoom, setCreateRoom] = useState(false);
     const [joinRoom, setJoinRoom] = useState(false);
     
-    ////////// FORM HANDLER /////////
+    ////////// FORM HANDLER ////////////
     
     ////// set player name /////////
     const handelForm = (e) => {

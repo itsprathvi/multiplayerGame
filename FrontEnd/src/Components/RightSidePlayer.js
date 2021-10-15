@@ -2,7 +2,7 @@ import React from 'react'
 import ScoreBoards from './ScoreBoards'
 import RightGameBoard from './RightGameBoard'
 
-
+////////////////////////////Function For Right Side Players/////////////////////////////////////
 function RightSidePlayer({player, opponent, setPlayer, setOpponent,socket, started, room}) {
     return (
         <>

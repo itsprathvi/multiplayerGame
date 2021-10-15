@@ -1,6 +1,8 @@
 import React from 'react'
 import styles from './CSS/Loding.module.css';
 
+/////////////////////////////////////Game Info Panel//////////////////////////////////////////
+
 function GameInfoPannel(socket, room, player) {
     return (
         <div className="info-pannel">

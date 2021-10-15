@@ -2,13 +2,15 @@ import React, { useEffect, useState } from 'react'
 import styles from './CSS/GameLeft.module.css'
 
 function LeftGameBoard({player, opponent, setPlayer, setOpponent,socket, started, room}) {
-    ////////////////////////////////////// VARIABLES ///////////////////////////
+    
+/////////////////////////////////////////// VARIABLES ///////////////////////////////////////
     var BOARD;
     const VEL = 1;
     const BULLETS_VEL = 1.25;
     const MAX_BULLETS = 3;
     
-    //// PLAYERS VAR
+////////////////////////////// PLAYERS VAR //////////////////////////////////////////////////
+    
     var mySpace;
     var myBullets = []
     const [keysPressed, setKeysPressed] = useState({ArrowLeft: false, ArrowRight: false, ArrowUp: false, ArrowDown: false})

@@ -2,6 +2,8 @@ import React from 'react'
 import InfoPannel from './InfoPannel'
 import GameInfoPannel from './GameInfoPannel'
 
+//////////////////////////////////Before starting the Game////////////////////////////////////////
+
 function BeforeStart({socket, room, player, setRoom, setOpponent, opponent, setPlayer}) {
     return (
         <>

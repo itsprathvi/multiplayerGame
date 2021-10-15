@@ -1,6 +1,8 @@
 import React from 'react'
 import styles from './CSS/Background.module.css';
 
+////////////////////////BackGround  Settings//////////////////////////////////////////////////
+
 export default function Background() {
 
     return (

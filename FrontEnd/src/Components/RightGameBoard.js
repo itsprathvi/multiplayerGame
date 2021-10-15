@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import styles from './CSS/GameRight.module.css'
 
+
+//////////////////////// Function For Right Game Board //////////////////////////////////////////
 function RightGameBoard({player, opponent, setPlayer, setOpponent,socket, started, room}) {
     const VEL = 1;
     const BULLETS_VEL = 1.25;
